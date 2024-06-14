@@ -1,0 +1,30 @@
+.all-projects {
+        padding: 100px 0 130px;
+        background-color: #F6F6F8;
+}
+.all-projects-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.46;
+        text-align: center;
+        color: #000;
+        margin-bottom: 28px;
+}
+.all-projects-info {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.58;
+        text-align: center;
+        color: $main-color;
+        margin-bottom: 92px;
+}
+.all-projects-list {
+        display: flex;
+        gap: 30px;
+        margin-bottom: 50px;
+}
+.all-projects-btn {
+        @extend %btn;
+        display: block;
+        margin: 0 auto;
+}

@@ -1,0 +1,71 @@
+.footer {
+        padding: 70px 0 30px;
+        background-color: #F6F6F8;
+}
+.footer-box {
+        display: flex;
+        gap: 30px;
+        padding-bottom: 70px;
+        border-bottom: #E0E0E0 1px solid;
+}
+.contacts-title,
+.links-title,
+.projects-title,
+.social-title {
+        font-weight: 600;
+        font-size: 18px;
+        color: #000;
+        margin-bottom: 35px;
+}
+.contacts-item:not(:last-child),
+.links-item:not(:last-child),
+.projects-item:not(:last-child),
+.social-item:not(:last-child) {
+        margin-bottom: 30px;
+}
+.contacts-link,
+.links-link,
+.projects-link,
+.social-link {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.58;
+        color: #999;
+}
+.contacts-link::before,
+.links-link::before,
+.projects-link::before,
+.social-link::before {
+        content: '';
+        width: 10px;
+        height: 10px;
+        display: inline-block;
+        background-image: url(../../images/right-arrow.png);
+        background-repeat: no-repeat;
+}
+.contacts-item:first-child > .contacts-link:before {
+        width: 15px;
+        height: 15px;
+        background-image: url(../../images/envelope.png);
+}
+.contacts-item:nth-child(2) > .contacts-link:before{
+        width: 15px;
+        height: 15px;
+        background-image: url(../../images/call.png);
+}
+.contacts-item:last-child > .contacts-link:before {
+        width: 15px;
+        height: 15px;
+        background-image: url(../../images/location.png);
+}
+.copyright {
+        padding-top: 30px;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 1.58;
+        text-align: center;
+        color: #999;
+}

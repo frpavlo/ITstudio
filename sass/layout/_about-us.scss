@@ -1,0 +1,53 @@
+.about-us {
+        padding: 100px 0 70px;
+        background-color: #F6F6F8;
+}
+.about-us-box {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 70px;
+}
+.about-us-title {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.46;
+        color: $add-color;
+        margin-bottom: 60px;
+}
+.about-us-info {
+        max-width: 490px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.58;
+        color: $main-color;
+        margin-bottom: 42px;
+}
+.about-us-link {
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: underline;
+        color: $accent-color;
+}
+.project-count-list {
+        display: flex;
+        justify-content: space-evenly;
+        border-top: 1px solid #E0E0E0;
+        padding-top: 70px;
+}
+.project-count-item-box {
+        display: flex;
+        gap: 20px;
+        align-items: center;
+}
+.project-count-item-count {
+        font-weight: 400;
+        font-size: 36px;
+        line-height: 1.46;
+        color: #000;
+}
+.project-count-item-name {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.58;
+        color: #999;
+}

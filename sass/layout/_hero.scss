@@ -1,0 +1,27 @@
+.hero {
+        background-image: url("../../images/hero-bg.jpg");
+        background-repeat: no-repeat;
+        padding: 320px 0 335px;
+}
+.main-subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        text-align: center;
+        color: #fff;
+        margin-bottom: 20px;
+}
+.main-title {
+        max-width: 830px;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 134%;
+        text-align: center;
+        margin: 0 auto;
+        color: #fff;
+        margin-bottom: 50px;
+}
+.main-btn{
+        @extend %btn;
+        display: block;
+        margin: 0 auto;
+}
