@@ -1,7 +1,11 @@
 .hero {
-        background-image: url("../../images/hero-bg.jpg");
+        background-image: url("../../images/hero-bg1x.jpg");
         background-repeat: no-repeat;
         padding: 320px 0 335px;
+        background-size: cover;
+        @include retina(2, 192dpi, 2dppx) {
+                background-image: url(../../images/hero-bg2x.jpg);
+        }
 }
 .main-subtitle {
         font-weight: 500;

@@ -1,0 +1,8 @@
+@mixin retina($dpr, $dpi, $dppx) {
+
+    @media (min-device-pixel-ratio: $dpr),
+    (min-resolution: $dpi),
+    (min-resolution: $dppx) {
+        @content
+    }
+}
